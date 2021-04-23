@@ -1,0 +1,17 @@
+.cardWrapper{
+margin: 50px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 50px;
+    
+}
+.card{
+    
+    width: 100%;
+
+}
+.eventTitle{
+    color: rgb(14, 9, 32);
+    font-size: 18px;
+    padding-bottom: 10px;
+}

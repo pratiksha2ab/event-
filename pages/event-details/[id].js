@@ -7,7 +7,7 @@ function EventDetails() {
     const {id}=router.query
     return (
         <div>
-            This is event details page-{id}
+            This is event details page-{id}-comming soon....
         </div>
     )
 }

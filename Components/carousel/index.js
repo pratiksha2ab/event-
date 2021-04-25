@@ -6,7 +6,7 @@ import {Carousel} from 'react-responsive-carousel';
 function ImageSlider() {
     const imageSliderList=[
         {
-            image:"https://i.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68",
+            image:"eventbanner.png",
             alt:"nature"
         },
         {
@@ -34,7 +34,7 @@ function ImageSlider() {
                {
                    imageSliderList.map((item ,index)=>
                    <div>
-                       <img height="400px" src ={item.image} alt={item.alt}/>
+                       <img height="450px" src ={item.image} alt={item.alt}/>
                    </div>
 
                    )

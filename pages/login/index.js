@@ -3,6 +3,7 @@ import {Form, Input,Button, notification } from 'antd';
 import styles from './login.module.css';
 import {auth} from '../../utils/firebase';
 import {useRouter} from 'next/router'
+import Link from 'next/link';
 
 
 
@@ -84,11 +85,17 @@ function Login() {
             <Form.Item>
             <Button type="primary" htmlType="submit"
             loading={loading}
+            className={styles.buttonWrapper}
             >
              Login
              </Button>
             </Form.Item>
+            <div className={styles.footerContainer}>
+                <Link href="/forgot-password"><a>forgot Password?</a></Link>
+                <Link href="/signup"><a className={styles.create}>Create New Account</a></Link>
+            </div>
             </Form>
+            
 
         </div>
     )

@@ -2,7 +2,7 @@ import React ,{useState}from 'react'
 import {Form,Input,Button, notification} from 'antd'
 import styles from './signup.module.css'
 import {auth} from '../../utils/firebase'
-
+import {useRouter} from 'next/router'
 
 function Signup() {
     const[email,setEmail]=useState("");
@@ -11,6 +11,7 @@ function Signup() {
     const[lastname,setLastname]=useState("");
     const[confirmpassword,setConfirmpassword]=useState("");
     const[loading,setLoading]=useState(false);
+    const router=useRouter();
    const formHandler=async()=>{
        setLoading(true)
        try {
@@ -23,6 +24,7 @@ function Signup() {
                message:'User created sucessfully',
                description:'verification mail have been sent'
            })
+           router.push("/")
        } catch (error) {
 
            notification.error({

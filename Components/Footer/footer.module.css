@@ -1,0 +1,60 @@
+.mainContainer{
+    margin-top: 50px;
+    color: #fff;
+
+    
+}
+.wrapper{
+    max-width: 1440px;
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    size: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#01272bf5;
+    font-size: 20px;
+    
+
+
+}
+.info{
+    max-width: 350px;
+ 
+    
+
+
+    
+    
+}
+.info>svg{
+        font-size: 35px;
+        margin: 5px;
+}
+.copyright{
+    
+    background-color: rgb(121, 149, 156);
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 15px;
+     color: lavender;
+     text-align: center;
+    
+    
+    
+
+}
+.iconHolder{
+    display: flex;
+    justify-content: space-around;
+}
+.quickLinks{
+    display: flex;
+    flex-direction: column;
+    color: #fff !important;
+    font-size: 16px;
+}
+.quickLinks>a{
+    color:#fff;
+}

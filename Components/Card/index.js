@@ -9,27 +9,31 @@ function Eventcard() {
   const router=useRouter();
   const eventCardList=[
     {
-      image:'https://i.picsum.photos/id/1000/5626/3635.jpg?hmac=qWh065Fr_M8Oa3sNsdDL8ngWXv2Jb-EE49ZIn6c0P-g',
-      summary:`There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.`,
-      title:'Meditiation',
+      image:'design1.png',
+      summary:`Online conferemnce provided by the Leo club of Baglung for the youths.The program is all about the training ,job oppertunities and many more.We will have respected Minister "xyz" and 3 guests.`,
+      title:'Conference',
       id:1,
 
       
      
     },
     {
-      image:'https://i.picsum.photos/id/1001/5616/3744.jpg?hmac=38lkvX7tHXmlNbI0HzZbtkJ6_wpWyqvkX4Ty6vYElZE',
+      image:'design2.png',
       summary:`There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.`,
-      title:'Parenting',
+      title:'Art competition',
       id:2,
 
       
      
     },
     {
-      image:'https://i.picsum.photos/id/1002/4312/2868.jpg?hmac=5LlLE-NY9oMnmIQp7ms6IfdvSUQOzP_O3DPMWmyNxwo',
-      summary:`There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.`,
-      title:'cosmos',
+      image:'Python3.png',
+      summary:`Mediaholic Nepal Pvt. Ltd. presents a free workshop on Python in collaboration with Patan CS Community.
+      Please fill up the form to get registered for this event
+      Event Details:
+      Date: June-1, 2021 (Tuesday) to June-10 , 2021 ( Thrusday)
+      Platform: Zoom (joining link will be sent to registered mail)`,
+      title:'Bootcamp',
       id:3,
 
       

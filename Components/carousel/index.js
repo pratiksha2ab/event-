@@ -6,22 +6,15 @@ import {Carousel} from 'react-responsive-carousel';
 function ImageSlider() {
     const imageSliderList=[
         {
-            image:"eventbanner.png",
+            image:"mainbanner-min.png",
             alt:"nature"
-        },
-        {
-          image:"https://i.picsum.photos/id/1006/3000/2000.jpg?hmac=x83pQQ7LW1UTo8HxBcIWuRIVeN_uCg0cG6keXvNvM8g",
-          alt:"himalay "
-        },
-        {
-            image:"https://i.picsum.photos/id/1011/5472/3648.jpg?hmac=Koo9845x2akkVzVFX3xxAc9BCkeGYA9VRVfLE4f0Zzk",
-            alt:"animal"
         }
+        
     ]
 
     return (
         
-        <div style ={{height:"400px"}}>
+        <div style ={{height:"550px",marginBottom:"50px"}}>
            <Carousel
            showThumbs={false}
            showStatus={false}
@@ -34,7 +27,7 @@ function ImageSlider() {
                {
                    imageSliderList.map((item ,index)=>
                    <div>
-                       <img height="450px" src ={item.image} alt={item.alt}/>
+                       <img height="550px" src ={item.image} alt={item.alt}/>
                    </div>
 
                    )

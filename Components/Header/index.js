@@ -46,6 +46,7 @@ function Header() {
                     <Link href="/" ><a>Home</a></Link>
                     <Link href="/events"><a>Event</a></Link>
                     <Link href="/blog"><a>Blog</a></Link>
+                    <Link href="/submit-event"><a>Submit Event</a></Link>
                     
                     {
 
